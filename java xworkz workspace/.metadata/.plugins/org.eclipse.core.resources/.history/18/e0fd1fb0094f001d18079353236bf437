@@ -1,7 +1,0 @@
-package com_xworkz_javaa.polymorphism.methodOveriding.populationmethod;
-
-public class India {
- double getpopulations() {
-	 return 1645166975;
- }
-}

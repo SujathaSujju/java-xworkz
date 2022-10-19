@@ -1,7 +1,0 @@
-package com_xworkz_javaa.polymorphism.methodOveriding.populationmethod;
-
-public class India {
- void getpopulations() {
-	 System.out.println("16.45 lkhs");
- }
-}

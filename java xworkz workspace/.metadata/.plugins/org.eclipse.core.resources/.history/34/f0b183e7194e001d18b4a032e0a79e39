@@ -1,7 +1,0 @@
-package com_xworkz_javaa.inheritance.Human_heart;
-
-public class Heart {
-	String Heartbeat;
-	String bloodpump;
-	
-}
