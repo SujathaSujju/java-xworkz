@@ -1,0 +1,10 @@
+package com_xworkz_javaa.polymorphism.methodOveriding.populationmethod;
+
+public class Karnataka extends India{
+	double getpopulations() {
+		return 66165886;
+		
+	}
+
+	
+}

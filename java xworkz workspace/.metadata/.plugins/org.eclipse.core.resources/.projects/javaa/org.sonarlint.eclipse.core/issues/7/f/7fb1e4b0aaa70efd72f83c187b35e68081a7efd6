@@ -1,0 +1,12 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ‰ÈÓüÿÿÿÿ8º¤ß¾0H½RMAJORZ
+CODE_SMELL
+`
+java:S1172"-Remove this unused method parameter "person".(ñù·8º¤ß¾0H»RMAJORZ
+CODE_SMELL
+e
+java:S1172
+"-Remove this unused method parameter "person".(…´¼Ñÿÿÿÿÿ8Ê°»ß¾0HÅRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ºî­âüÿÿÿÿ8Ê°»ß¾0HÇRMAJORZ
+CODE_SMELL

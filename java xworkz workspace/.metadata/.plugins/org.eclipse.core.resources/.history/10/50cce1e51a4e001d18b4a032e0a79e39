@@ -1,0 +1,23 @@
+package com_xworkz_javaa.inheritance.Human_heart;
+
+public class HumanHeartDemo {
+	public static void main(String[] args) {
+		
+		Human human = new Human();
+		
+		human.Bodyparts = "Heart";
+		human.Temperature = "35";
+	
+		System.out.println("human heartbeat is"+human.heart.Heartbeat);
+		
+		System.out.println("Heart pumps blood per minute is"+human.heart.bloodpump);
+		
+		System.out.println("human main body part"+human.Bodyparts);
+		
+		System.out.println("Normal Human Body Temperature is"+human.Temperature);
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,7 @@
+package com_xworkz_javaa.inheritance.Human_heart;
+
+public class Human {
+	String Bodyparts;
+	int Temperature;
+	
+}

@@ -1,0 +1,9 @@
+
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(üÅ® üÿÿÿÿH—RMINORZ
+CODE_SMELL
+’
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "product".(ãº©õ8§Šã¾0H›RMINORZ
+CODE_SMELL
+—
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "product".(ÀÁêËÿÿÿÿÿ8§Šã¾0HRMINORZ
+CODE_SMELL

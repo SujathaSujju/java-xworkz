@@ -1,0 +1,7 @@
+package com_xworkz_javaa.inheritance.Human_heart;
+
+public class HeartDetails {
+	int Heartbeat = 70;
+	String bloodpump ="5ltr" ;
+	
+}

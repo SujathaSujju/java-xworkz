@@ -1,0 +1,9 @@
+package com_xworkz_javaa.polymorphism.methodOveriding.populationmethod;
+
+public class AndhraPradesh extends India{
+	double getpopulations() {
+		return 53302465;
+		
+	}
+
+}
