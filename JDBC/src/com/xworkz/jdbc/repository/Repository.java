@@ -7,6 +7,6 @@ import com.xworkz.jdbc.TheatreDto;
 public interface Repository {
 
 	   ArrayList<TheatreDto> save(TheatreDto theatreDto);
-       String findBy(String theatreName);
+	   ArrayList<TheatreDto>findby(String theatreName);
 		ArrayList<TheatreDto> read();
 }

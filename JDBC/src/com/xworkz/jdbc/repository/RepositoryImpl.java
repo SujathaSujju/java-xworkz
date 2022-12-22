@@ -21,9 +21,11 @@ public class RepositoryImpl implements Repository {
 		return theatre;
 	}
 
+
 	@Override
-	public String findBy(String theatreName) {
-		return theatreName;
+	public ArrayList<TheatreDto> findby(String theatreName) {
+
+		return theatre;
 	}
 
 }

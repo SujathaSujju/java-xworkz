@@ -23,20 +23,17 @@ public class ServiceImpl implements Service{
 
 	}
 
-	public String findBy(String theatreName) {
+	public TheatreDto findBy(String theatreName) {
 		ArrayList<TheatreDto> theatres = repository.read();
-		if (theatres != null) {
-			for (TheatreDto theatreDTO : theatres) {
-				if (theatreDTO.getTheatreName().equals(theatres)) {
-					System.out.println(theatreDTO);
-
+		 for(TheatreDto th:theatres) {
+			 if(th.getTheatreName().equals(theatreName)) {
+					System.out.println(th);
+					
+				 }
+				return null;
 			}
-				return theatreName;
-			}
-			
 		return null;
-			}
-		return theatreName;
+			
 	}
 	
 	}
