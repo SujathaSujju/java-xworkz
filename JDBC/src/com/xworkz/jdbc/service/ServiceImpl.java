@@ -12,9 +12,14 @@ public class ServiceImpl implements Service{
 
 	public TheatreDto save(TheatreDto theatreDto) {
 		if (theatreDto != null) {
-			repository.save(theatreDto);
 			System.out.println("is not null");
+			repository.save(theatreDto);
+			System.out.println("data saved");
 		}
+		else {
+			
+		return theatreDto;
+	}
 		return theatreDto;
 	}
 

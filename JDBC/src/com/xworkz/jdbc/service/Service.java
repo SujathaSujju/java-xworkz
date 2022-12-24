@@ -10,5 +10,5 @@ public interface Service {
 	 
     ArrayList<TheatreDto> read();
     
-    TheatreDto findBy(String theatreName);
+   public TheatreDto findBy(String theatreName);
 }
