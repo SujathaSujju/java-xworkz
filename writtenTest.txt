@@ -1,0 +1,114 @@
+1.In oops how does abstraction differs from encapsualtion?
+In oops,abstraction is hiding the certain details and showing essential data only
+and encapsulation means wrapping the data.
+
+
+
+
+2.difference between Is-A Relationship and Has-A Realationship.
+Is-A relationship is like parent and child relationship 
+  In,Is-A relationship child class extends parent child and stronger in nature
+  Has-A Relationship is the instance of the class,and also called as Association.
+ in this there are types as - Aggregation(weak has a relationship) these are independent.
+                            - composition(strong has a relationship)these are dependent.
+   Is-A relationship is stronger as compared to Has-A relationship.
+
+
+
+
+3.why java doesnot support multiple inheritance?
+Java doesnot support multiple inheritance through classes but it can be acheived through interfaces,
+  because Ambigiuty problem occurs in this so java classes will not support multiple inheritance.
+
+
+
+
+7.difference between equals() method and equality operator(==) in java?
+ equals() method will compare the two strings in the class as both the address of the string or both the strings are in same nature are not
+but where as equality operator(==) will only check if both the objects are equal or not.
+ex:obj.equals() - will check if the given string is belongs to obj or not.
+ex:a==b - will check if a and b are of same values r not.
+
+
+8.how can we create constants in java?
+  In java,constants are created and these constants should be in capital letters.
+  ex: MAX_CAPACITY;
+
+
+
+9.difference between public,protected,private modifiers in java?
+ private:private is used within the class but not outside of the class,when we can declare any variable as private we cannot access outside of the class.
+ public:public is used within the class and outside of the class and also out side the package,we can access through out the project.
+ protected:protected is used within the class and outside of the class but not outside of the package because it is protected can access within package only.
+
+
+
+
+10.define wrapper classes in java?
+  wrapper classes can convert primitive data types into object and object into primitive data types.
+  
+
+
+
+14.what is marker interface?
+ marker interface: the interface having null block without any statements in the method is called marker interface.
+ ex: public interface student{
+       
+         }
+    the student interface having no statements with empty block is called marker interface.
+
+
+
+
+
+15.final keyword in variable,method and class.difference between final and static.
+   final keyword is used in methods,variables and classes.
+   final variable:when we declare a variable as final then we cannot change the value is called final variable.
+   final method:when we declare a method as final is known as final method.
+   final classes:when we declare a class as final is called final class.
+
+   final keyword is used to do the variable ,method, classes as final then we cannot access these variables ,methods,classes with other,
+   but when we declare as static the value cannot be changed throughout the program runs.
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
