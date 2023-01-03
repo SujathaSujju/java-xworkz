@@ -14,9 +14,9 @@ public boolean save(InstituteDto dto);
 	
 	public ArrayList<InstituteDto> findByLocationAndRating(String location,int rating);
 	
-	public boolean updateLocationByIndex(String location,int index);
+	public InstituteDto updateLocationByIndex(String location,int index);
 	
-	public ArrayList<InstituteDto> updateCourseByName(String course,String name);
+	public InstituteDto updateCourseByName(String course,String name);
 	
 	public ArrayList<InstituteDto> deleteByRating(int rating);
 	

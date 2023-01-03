@@ -54,18 +54,18 @@ public class InstituteServiceImpl implements InstituteService{
 	}
 
 	@Override
-	public boolean updateLocationByIndex(String location, int index) {
+	public InstituteDto updateLocationByIndex(String location, int index) {
           if(location!=null && location.length()>=3) {
         	  if(index<5 && index>=0) {
         		  return repo.updateLocationByIndex(location, index);
         		
         	  }
           }
-		return false;
+		return null;
 	}
 
 	@Override
-	public ArrayList<InstituteDto> updateCourseByName(String course, String name) {
+	public InstituteDto updateCourseByName(String course, String name) {
         if(course!=null && name!=null) {
         	return repo.updateCourseByName(course, name);
         }
@@ -75,7 +75,7 @@ public class InstituteServiceImpl implements InstituteService{
 	@Override
 	public ArrayList<InstituteDto> deleteByRating(int rating) {
 		if(rating>=0) {
-			repo.deleteByRating(rating);
+		repo.deleteByRating(rating);
 		}
 		return null;
 	}

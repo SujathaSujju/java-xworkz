@@ -48,20 +48,20 @@ public class InstituteRepositoryImpl implements InstituteRepository{
 	}
 
 	@Override
-	public boolean updateLocationByIndex(String location, int index) {
+	public InstituteDto updateLocationByIndex(String location, int index) {
 		
-       InstituteDto dto = list.get(index);
-    	  dto.getLocation();
-    	  dto.setLocation(location);
-    	  list.set(index, dto);
-    	  
+       InstituteDto DTO = list.get(index);
+    	  DTO.getLocation();
+    	  DTO.setLocation(location);
+    	  list.set(index, DTO);
+    	  list.add(DTO);
     	  System.out.println("updated location Successfully");
-    	  return true;
+    	  return DTO;
          
 	}
 
 	@Override
-	public ArrayList<InstituteDto> updateCourseByName(String course, String name) {
+	public InstituteDto updateCourseByName(String course, String name) {
 		for(InstituteDto dto:list) {
 			dto.getCourse();
 			dto.setCourse(course);
@@ -69,19 +69,21 @@ public class InstituteRepositoryImpl implements InstituteRepository{
 			dto.setName(name);
 			
 			System.out.println("updated course Successfully");
-			return list;
+			return dto;
 		}
 		return null;
 	}
 
 	@Override
 	public ArrayList<InstituteDto> deleteByRating(int rating) {
-		for(InstituteDto dto:list) {
-			list.remove(rating);
+		Iterator<InstituteDto> delete = list.iterator();
+		  list.remove(rating);
+			
 		  System.out.println("removed Successfully");
-		  		  return list;
-        	 }
-		return null;
+		  		  return null ;
+        	 
+		
+		
 	}
 	 }
 	

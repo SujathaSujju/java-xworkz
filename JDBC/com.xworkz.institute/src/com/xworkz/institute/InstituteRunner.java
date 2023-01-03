@@ -29,11 +29,11 @@ public class InstituteRunner {
 		System.out.println(service.findByLocationAndRating("BTM", 4));
 		
 		System.out.println(service.updateLocationByIndex("JP Nagar", 3));
-		System.out.println(service.read());
 		
 		System.out.println(service.updateCourseByName("testing", "Jspider"));
 		
-		System.out.println(service.deleteByRating(4));
+		System.out.println(service.deleteByRating(3));
+	
 		
 	}
 }
